@@ -43,7 +43,7 @@
             HRML(ES_A,   ES_S,      ES_D,     ES_F)     &kp ES_G       &kp ES_H   HRMR(ES_J,   ES_K,      ES_L,   ES_N_TILDE)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , ;      │ . :      │ tilde    │
-            &kp ES_Z   &kp ES_X   &kp ES_C   &kp ES_V   &kp ES_B    &kp ES_N   &kp ES_M   &kp ES_COMMA &kp ES_DOT &kp ES_ACUT
+            &kp ES_Z   &kp ES_X   &kp ES_C   &kp ES_V   &kp ES_B    &kp ES_N   &kp ES_M   &kp ES_COMMA &kp ES_DOT &kp ES_ACUTE
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   &kp ENTER   &kp ES_SPACE  &lt 1 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
@@ -54,7 +54,7 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│ INSERT   │  1  !  | │  2  "  # │  3  ·  # │          │   │ PAGE UP  │ INICIO   │ UP   /\  │ END      │  tilde   │
-            &kp INS    &kp ES_N1  &kp ES_N2  &kp ES_N3  &trans         &kp PG_UP  &kp HOME   &kp UP     &kp END   &kp ES_ACUT
+            &kp INS    &kp ES_N1  &kp ES_N2  &kp ES_N3  &trans         &kp PG_UP  &kp HOME   &kp UP     &kp END   &kp ES_ACUTE
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│ CAPS     │  4  $  ~ │  5  %  ~ │  6  &  ¬ │          │   │ PAGE DN  │ LEFT <   │ DOWN \/  │ RIGHT >  │  ;       │
            &caps_word  &kp ES_N4  &kp ES_N5  &kp ES_N6  &trans         &kp PG_DN  &kp LEFT   &kp DOWN   &kp RIGHT   &kp SEMI
