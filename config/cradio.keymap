@@ -42,8 +42,8 @@
         //│  A       │  S       │  D       │  F       │  G       │   │  H       │  J       │  K       │  L       │ Ñ        │
             HRML(ES_A,   ES_S,      ES_D,     ES_F)     &kp ES_G       &kp ES_H   HRMR(ES_J,   ES_K,      ES_L,   ES_N_TILDE)
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│  Z       │  X       │  C       │  V       │  B       │   │  N       │  M       │ , ;      │ . :      │ tilde    │
-            &kp ES_Z   &kp ES_X   &kp ES_C   &kp ES_V   &kp ES_B    &kp ES_N   &kp ES_M   &kp ES_COMMA &kp ES_DOT &kp ES_ACUTE
+        //│  tilde   │  Z       │  X       │  C       │  V       │   │  B       │  N       │  M       │ , ;      │ . :      │
+        &kp ES_ACUTE  &kp ES_Z   &kp ES_X   &kp ES_C   &kp ES_V       &kp ES_B   &kp ES_N   &kp ES_M &kp ES_COMMA &kp ES_DOT
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                             &lt 2 TAB   &kp ENTER   &kp ES_SPACE  &lt 1 BSPC
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
